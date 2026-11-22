@@ -1,0 +1,42 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.job-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #dbeafe;
+  color: #1e40af;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+button {
+  padding: 8px 12px;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  background-color: white;
+  color: #1e40af;
+  cursor: pointer;
+}
+
+.hide-btn {
+  background-color: #1e40af;
+  color: white;
+}
